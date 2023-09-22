@@ -1,0 +1,16 @@
+{
+  "name": "acf/video",
+  "title": "Video",
+  "description": "A custom video block that uses ACF fields.",
+  "style": [ "file:./assets/video.css" ],
+  "category": "theme",
+  "icon": "layout",
+  "keywords": ["video", "video-embed"],
+  "acf": {
+      "mode": "edit",
+      "renderTemplate": "components/video/video.php"
+  },
+  "supports": {
+      "anchor": true
+  }
+}

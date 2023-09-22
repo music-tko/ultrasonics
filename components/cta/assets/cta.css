@@ -1,0 +1,27 @@
+.CTA_container {
+  background-image: repeating-linear-gradient(-49deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) 1px, transparent 5px, transparent 10px);
+  position: relative;
+  z-index: -1;
+}
+.CTA_container::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -1px;
+  width: 0;
+  height: 0;
+  border-right: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-top: 70px solid #fff;
+}
+.CTA_container::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  right: -1px;
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-top: 60px solid transparent;
+  border-bottom: 70px solid #fff;
+}/*# sourceMappingURL=cta.css.map */

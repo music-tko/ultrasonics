@@ -1,0 +1,16 @@
+{
+  "name": "acf/cta",
+  "title": "Call To Action Block",
+  "description": "A custom call to action block that uses ACF fields.",
+  "style": [ "file:./assets/cta.css" ],
+  "category": "theme",
+  "icon": "layout",
+  "keywords": ["cta", "call to action"],
+  "acf": {
+      "mode": "auto",
+      "renderTemplate": "components/cta/cta.php"
+  },
+  "supports": {
+      "anchor": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "acf/media-with-text",
+  "title": "Media With Text",
+  "description": "A custom media with text block that uses ACF fields.",
+  "style": [ "file:./assets/media-with-text.css" ],
+  "category": "theme",
+  "icon": "layout",
+  "keywords": ["media"],
+  "acf": {
+      "mode": "auto",
+      "renderTemplate": "components/media-with-text/media-with-text.php"
+  },
+  "supports": {
+      "anchor": false
+  }
+}

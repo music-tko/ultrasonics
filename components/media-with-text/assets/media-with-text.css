@@ -1,0 +1,48 @@
+.MediaWithText_container iframe {
+  min-height: 50vh;
+}
+.MediaWithText_container__overlay::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -1px;
+  width: 0;
+  height: 0;
+  border-right: 65px solid transparent;
+  border-bottom: 65px solid transparent;
+  border-top: 65px solid #fff;
+}
+@media screen and (min-width: 1000px) {
+  .MediaWithText_container__overlay::before {
+    top: 30px;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid #fff;
+  }
+}
+.MediaWithText_container__overlay::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: -1px;
+  width: 0;
+  height: 0;
+  border-left: 65px solid transparent;
+  border-top: 65px solid transparent;
+  border-bottom: 65px solid #fff;
+}
+@media screen and (min-width: 1000px) {
+  .MediaWithText_container__overlay::after {
+    border-left: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid #fff;
+  }
+}
+.MediaWithText_container__playBtn {
+  left: 30%;
+}
+@media screen and (min-width: 1000px) {
+  .MediaWithText_container__playBtn {
+    left: 40%;
+  }
+}/*# sourceMappingURL=media-with-text.css.map */

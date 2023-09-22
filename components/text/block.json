@@ -1,0 +1,16 @@
+{
+  "name": "acf/text",
+  "title": "Text",
+  "description": "A custom text block that uses ACF fields.",
+  "style": [ "file:./assets/text.css" ],
+  "category": "theme",
+  "icon": "layout",
+  "keywords": ["text", "text-block"],
+  "acf": {
+      "mode": "auto",
+      "renderTemplate": "components/text/text.php"
+  },
+  "supports": {
+      "anchor": true
+  }
+}
