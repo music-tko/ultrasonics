@@ -50,8 +50,8 @@
 }
 
 .Video_modal iframe {
-  min-width: 90vw;
-  min-height: 80vh;
+  min-width: 63vw;
+  min-height: 33vh;
 }
 @media screen and (min-width: 1000px) {
   .Video_modal iframe {
